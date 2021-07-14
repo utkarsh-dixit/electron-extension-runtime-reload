@@ -1,0 +1,15 @@
+{
+    "name": "Chrome Extension Starter Kit",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Chrome Extension starter Kit with es6 standards",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [],
+    "content_security_policy": "script-src 'self' 'unsafe-inline'; object-src 'self'",
+    "background": {
+        "page": "background.html",
+        "persistent": false
+    }
+}
